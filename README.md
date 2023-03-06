@@ -10,7 +10,7 @@
 * symfony console debug:mess
 
 ### Problem (TLDR)
-When using several messenger buses and defining them in config/services.yaml the priority in the php attribute AsMessageHandler is ignored.
+When using multiple messenger buses and defining them in config/services.yaml the priority in the php attribute AsMessageHandler is ignored.
 
 
 
