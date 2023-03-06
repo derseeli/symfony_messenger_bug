@@ -1,8 +1,10 @@
 <?php
 
-namespace App\Message\Command;
+namespace App\Message\Event;
 
-final class ImportCategory
+use App\Message\SyncMessageInterface;
+
+final class AttribtueImported implements SyncMessageInterface
 {
     public function __construct(
         public readonly int  $nodeId,

@@ -2,7 +2,7 @@
 
 namespace App\Message\Command;
 
-final class ImportCategory
+final class ImportAttributes
 {
     public function __construct(
         public readonly int  $nodeId,
