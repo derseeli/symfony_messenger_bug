@@ -153,3 +153,7 @@ event.bus
                                                                                  
  ------------------------------------------------------------------------------- 
 ```
+
+
+Belongs to bug https://github.com/symfony/symfony/issues/49611.
+
